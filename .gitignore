@@ -35,3 +35,5 @@ firebase-sync/service-account.json.json
 
 .vercel
 .env*
+!backend/.env.example
+!frontend/.env.example
