@@ -1,0 +1,11 @@
+# Prevent Vercel from detecting backend/ as a separate deployable service.
+# backend/server.js is still uploaded and used by api/index.js (serverless function).
+# All backend dependencies are declared in the root package.json.
+backend/package.json
+
+# Standard ignores
+**/node_modules
+**/.env
+**/.env.local
+frontend/dist
+.vercel
